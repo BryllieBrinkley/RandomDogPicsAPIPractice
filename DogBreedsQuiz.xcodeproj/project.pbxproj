@@ -7,13 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		579AE3562CADBCB10042870A /* DogBreedsQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579AE3552CADBCB10042870A /* DogBreedsQuizApp.swift */; };
+		579AE3562CADBCB10042870A /* RandomDogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579AE3552CADBCB10042870A /* RandomDogs.swift */; };
 		579AE3582CADBCB10042870A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579AE3572CADBCB10042870A /* ContentView.swift */; };
 		579AE35A2CADBCB60042870A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579AE3592CADBCB60042870A /* Assets.xcassets */; };
 		579AE35D2CADBCB60042870A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579AE35C2CADBCB60042870A /* Preview Assets.xcassets */; };
-		579AE3672CADBCB70042870A /* DogBreedsQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579AE3662CADBCB70042870A /* DogBreedsQuizTests.swift */; };
-		579AE3712CADBCB70042870A /* DogBreedsQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579AE3702CADBCB70042870A /* DogBreedsQuizUITests.swift */; };
-		579AE3732CADBCB70042870A /* DogBreedsQuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579AE3722CADBCB70042870A /* DogBreedsQuizUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +32,12 @@
 
 /* Begin PBXFileReference section */
 		579AE3522CADBCB10042870A /* DogBreedsQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogBreedsQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		579AE3552CADBCB10042870A /* DogBreedsQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedsQuizApp.swift; sourceTree = "<group>"; };
+		579AE3552CADBCB10042870A /* RandomDogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDogs.swift; sourceTree = "<group>"; };
 		579AE3572CADBCB10042870A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		579AE3592CADBCB60042870A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		579AE35C2CADBCB60042870A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		579AE3622CADBCB70042870A /* DogBreedsQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogBreedsQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		579AE3662CADBCB70042870A /* DogBreedsQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedsQuizTests.swift; sourceTree = "<group>"; };
 		579AE36C2CADBCB70042870A /* DogBreedsQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogBreedsQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		579AE3702CADBCB70042870A /* DogBreedsQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedsQuizUITests.swift; sourceTree = "<group>"; };
-		579AE3722CADBCB70042870A /* DogBreedsQuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedsQuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				579AE3542CADBCB10042870A /* DogBreedsQuiz */,
-				579AE3652CADBCB70042870A /* DogBreedsQuizTests */,
-				579AE36F2CADBCB70042870A /* DogBreedsQuizUITests */,
 				579AE3532CADBCB10042870A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,7 +86,7 @@
 		579AE3542CADBCB10042870A /* DogBreedsQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				579AE3552CADBCB10042870A /* DogBreedsQuizApp.swift */,
+				579AE3552CADBCB10042870A /* RandomDogs.swift */,
 				579AE3572CADBCB10042870A /* ContentView.swift */,
 				579AE3592CADBCB60042870A /* Assets.xcassets */,
 				579AE35B2CADBCB60042870A /* Preview Content */,
@@ -108,23 +100,6 @@
 				579AE35C2CADBCB60042870A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		579AE3652CADBCB70042870A /* DogBreedsQuizTests */ = {
-			isa = PBXGroup;
-			children = (
-				579AE3662CADBCB70042870A /* DogBreedsQuizTests.swift */,
-			);
-			path = DogBreedsQuizTests;
-			sourceTree = "<group>";
-		};
-		579AE36F2CADBCB70042870A /* DogBreedsQuizUITests */ = {
-			isa = PBXGroup;
-			children = (
-				579AE3702CADBCB70042870A /* DogBreedsQuizUITests.swift */,
-				579AE3722CADBCB70042870A /* DogBreedsQuizUITestsLaunchTests.swift */,
-			);
-			path = DogBreedsQuizUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				579AE3582CADBCB10042870A /* ContentView.swift in Sources */,
-				579AE3562CADBCB10042870A /* DogBreedsQuizApp.swift in Sources */,
+				579AE3562CADBCB10042870A /* RandomDogs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				579AE3672CADBCB70042870A /* DogBreedsQuizTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				579AE3712CADBCB70042870A /* DogBreedsQuizUITests.swift in Sources */,
-				579AE3732CADBCB70042870A /* DogBreedsQuizUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
